@@ -1,0 +1,125 @@
+.separador{
+    padding-bottom: 2%;
+    display: flex;
+}
+.card{
+    margin: 5%;
+}
+ 
+#network>li>img{
+    height:32px !important;
+}
+
+body{
+    background-color: pink;
+}
+ .espaco{
+    padding-bottom: 2%;
+ }
+ .navbar{
+    margin-bottom: 40px;
+ }
+ button{
+    right: 0%;
+    position: absolute;
+    background-color:white;
+    border-radius: 10px;
+    padding: 2px 5px;
+
+ }
+ #main-footer {
+    display: grid;
+    grid-template-columns: 30% 20%;
+    gap: 30%;
+}
+
+#main-footer ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+#main-footer ul li{
+    padding-top: 1%;
+    font-size: clamp(0.5em, 1em, 2em);
+}
+
+
+#main-footer span {
+    color: black;
+    font-family: 'Oswald', sans-serif
+}
+
+#main-footer ul li span {
+    cursor: pointer;
+    color: rgb(19, 19, 19);
+}
+
+#main-footer ul li img {
+    padding-right: 2%;
+    cursor: pointer;
+}
+#main-footer {
+    display: grid;
+    grid-template-columns: 30% 20%;
+    gap: 30%;
+}
+
+#main-footer ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+#main-footer ul li{
+    padding-top: 1%;
+    font-size: clamp(0.5em, 1em, 2em);
+}
+
+
+#main-footer span {
+    color: black;
+    font-family: 'Oswald', sans-serif
+}
+
+#main-footer ul li span {
+    cursor: pointer;
+    color: rgb(19, 19, 19);
+}
+
+#main-footer ul li img {
+    padding-right: 2%;
+    cursor: pointer;
+}
+footer {
+    background-color: rgb(247, 2, 124);
+    width: 100%;
+    min-height: 23vh;
+}
+ul{
+    margin: 0%;
+}
+#pesquisar{
+    border: 2px solid aquamarine;
+}
+#pesquisar:hover{
+background-color: palevioletred;
+}
+nav{
+    box-shadow: 2px 2px 2px rgb(255, 10, 104);
+}
+.navbar{
+    margin: auto;
+}
+.formulario{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 100px;
+}
+.form-group{
+    width: 30%;
+    
+}
+#enviar{
+    position: relative;
+    left: 0;
+}
+                
