@@ -1,17 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+
 .separador{
     padding-bottom: 2%;
     display: flex;
 }
+
+.separador .card {
+    margin-top: 30px;
+    margin: auto;
+}
+
+.custom-select {
+    margin-bottom: 40px;
+}
+
 .card{
     margin: 5%;
 }
  
 #network>li>img{
-    height:32px !important;
+    height:32px;
+}
+
+#network {
+    position: relative;
+    bottom: 30px;
+}
+
+#network li img {
+    cursor: pointer;
 }
 
 body{
     background-color: pink;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
  .espaco{
     padding-bottom: 2%;
@@ -41,6 +65,8 @@ body{
 #main-footer ul li{
     padding-top: 1%;
     font-size: clamp(0.5em, 1em, 2em);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
 }
 
 
@@ -49,9 +75,10 @@ body{
     font-family: 'Oswald', sans-serif
 }
 
-#main-footer ul li span {
+#main-footer ul span {
     cursor: pointer;
     color: rgb(19, 19, 19);
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 #main-footer ul li img {
@@ -91,8 +118,8 @@ body{
 }
 footer {
     background-color: rgb(247, 2, 124);
+    padding: 0 100px;
     width: 100%;
-    min-height: 23vh;
 }
 ul{
     margin: 0%;
@@ -110,12 +137,13 @@ nav{
     margin: auto;
 }
 .formulario{
-    width: 100%;
-    height: 350px;
+    width: 60%;
     margin-bottom: 100px;
+    margin:auto;
 }
+
 .form-group{
-    width: 30%;
+    width: 100%;
     
 }
 #enviar{
@@ -123,3 +151,18 @@ nav{
     left: 0;
 }
                 
+@media screen and (max-width: 900px) {
+    .separador {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .separador .card {
+        margin-bottom: 30px;
+    }
+
+    #main-footer {
+        gap: 50%;
+    }
+
+}
